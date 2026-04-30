@@ -7,7 +7,7 @@ Syntactic foams contain both engineered porosity (hollow glass microspheres) and
 
 # Tools and Technical Stack Documentation
 
-## 1. Core Programming & Image Processing
+## a. Core Programming & Image Processing
 - Python (v3.11 recommended)
 - opencv-python (OpenCV)
 - numpy
@@ -16,22 +16,23 @@ Syntactic foams contain both engineered porosity (hollow glass microspheres) and
 - scipy (KDTree, stats)
 - matplotlib (histograms, rose plots)
 
-## 2. GUI & User Interface
+## b. GUI & User Interface
 - pillow (PIL)
 
-## 3. 3D Visualization and Mesh Generation
+## c. 3D Visualization and Mesh Generation
 - pyvista (PyVista)
 
-## 4. Imaging Hardware & Software
+## d. Imaging Hardware & Software
 - Bruker Skyscan 1172 Micro-CT Scanner
 - NRecon (1.7.4.6) Reconstruction Software
 - ImageJ
 - Labkit
 
-## 5. Manufacturing & Mechanical Testing
+## e. Manufacturing & Mechanical Testing
 - Prusa i3 MK3 FFF 3D Printer
 - Instron 5980 Series Universal Testing Machine
 - Bluehill Universal Software
+  
 ## Key Contributions
 
 - Developed an **unsupervised segmentation pipeline** combining thresholding and K-means clustering for µCT data
