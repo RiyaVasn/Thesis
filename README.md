@@ -32,7 +32,7 @@ Syntactic foams contain both engineered porosity (hollow glass microspheres) and
 
 - `thesis.pdf` – Full thesis document  
 - `figures/` – Key visualizations and segmentation outputs  
-- `code/` – Image processing and analysis scripts (if included)  
+- `code/` – Image processing and analysis scripts
 
 ## Author
 
