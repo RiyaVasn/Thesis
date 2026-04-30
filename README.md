@@ -5,6 +5,33 @@ This thesis presents an automated framework for microstructural characterization
 
 Syntactic foams contain both engineered porosity (hollow glass microspheres) and manufacturing-induced defects (voids), which are difficult to distinguish but critically influence mechanical performance. This work develops an end-to-end pipeline to accurately segment, classify, and quantify these features in 3D.
 
+# Tools and Technical Stack Documentation
+
+## 1. Core Programming & Image Processing
+- Python (v3.11 recommended)
+- opencv-python (OpenCV)
+- numpy
+- scikit-learn (KMeans clustering)
+- scikit-image (region properties, marching cubes)
+- scipy (KDTree, stats)
+- matplotlib (histograms, rose plots)
+
+## 2. GUI & User Interface
+- pillow (PIL)
+
+## 3. 3D Visualization and Mesh Generation
+- pyvista (PyVista)
+
+## 4. Imaging Hardware & Software
+- Bruker Skyscan 1172 Micro-CT Scanner
+- NRecon (1.7.4.6) Reconstruction Software
+- ImageJ
+- Labkit
+
+## 5. Manufacturing & Mechanical Testing
+- Prusa i3 MK3 FFF 3D Printer
+- Instron 5980 Series Universal Testing Machine
+- Bluehill Universal Software
 ## Key Contributions
 
 - Developed an **unsupervised segmentation pipeline** combining thresholding and K-means clustering for µCT data
