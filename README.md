@@ -1,4 +1,4 @@
-# Thesis
+# Thesis : Automated Micro-ct Image Segmentation And Void Analysis Of HDPE-HGM Syntactic Foams Using Machine Learning
 ## Overview
 
 This thesis presents an automated framework for microstructural characterization of HDPE–HGM syntactic foams using micro-CT (µCT) imaging and machine learning.
